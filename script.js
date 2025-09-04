@@ -7,7 +7,10 @@ let humanScoreNumber = 0;
 let machineScoreNumber = 0;
 
 const GAMER_OPTIONS = {
-  
+  ROCK: "rock",
+  PAPER: "paper",
+  SCISSORS: "scissors",
+
 }
 
 const playHuman = (humanChoice) => {
