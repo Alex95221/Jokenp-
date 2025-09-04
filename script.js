@@ -26,7 +26,7 @@ const playTheGame = (humanChoice, machine) => {
     result.innerHTML = "Deu Empate";
   } else if (
     (humanChoice === "paper" && machine === "rock") ||
-    (humanChoice === "rock" && machine === "scissor") ||
+    (humanChoice === "rock" && machine === "scissors") ||
     (humanChoice === "scissor" && machine === "paper")
   ) {
     humanScoreNumber++;
