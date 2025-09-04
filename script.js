@@ -34,7 +34,7 @@ const playTheGame = (humanChoice, machine) => {
   } else if (
     (humanChoice === "paper" && machine === "rock") ||
     (humanChoice === "rock" && machine === "scissors") ||
-    (humanChoice === "scissor" && machine === "paper")
+    (humanChoice === "scissors" && machine === "paper")
   ) {
     humanScoreNumber++;
     humanScore.innerHTML = humanScoreNumber;
